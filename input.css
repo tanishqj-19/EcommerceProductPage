@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active-thumbnail {
+    border: 5px solid #ff7d1a;
+    opacity: 3;
+    position: relative;
+    opacity: 0.5;
+  }
+
+
+  #imageModal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+
+  #imageModal .thumbnail {
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+
+  #imageModal .thumbnail:hover {
+    border-color: #ff7d1a;
+  }
+
+
+  .active-thumbnail {
+    border-color: #ff7d1a;
+  }
